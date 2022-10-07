@@ -1,0 +1,31 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@ckeditor/ckeditor5-alignment": "^35.2.0",
+        "@ckeditor/ckeditor5-build-classic": "^35.1.0",
+        "axios": "^0.21",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.4.17",
+        "postcss-loader": "^6.2.1",
+        "raw-loader": "^4.0.2",
+        "resolve-url-loader": "^5.0.0",
+        "sass": "^1.55.0",
+        "sass-loader": "^12.6.0",
+        "style-loader": "^2.0.0"
+    },
+    "dependencies": {
+        "@ckeditor/ckeditor5-dev-webpack-plugin": "^31.1.0",
+        "@ckeditor/ckeditor5-source-editing": "^35.1.0",
+        "ckeditor5-build-classic-all-plugin": "^16.0.6"
+    }
+}
